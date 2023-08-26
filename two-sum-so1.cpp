@@ -4,8 +4,8 @@
 
 class   Solutiion{
 public:
-   std:vector<int> twoSum(std::vector<int>& nums, int target){
-    std::undordered_map<int, int> numToIndex; // Map to store number-to-index mapping
+   std::vector<int> twoSum(std::vector<int>& nums, int target){
+    std::unordered_map<int, int> numToIndex; // Map to store number-to-index mapping
 
  for(int i = 0; i < nums.size(); ++i){
     int complement = target - nums[i];
